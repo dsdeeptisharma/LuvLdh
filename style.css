@@ -712,6 +712,31 @@ button:focus {
 
 
 /*--------------------*/
+/* CATEGORY */
+/*--------------------*/
+
+
+#mu-category {
+        background-color: #fff;
+        display: inline;
+        float: left;
+        width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------*/
 /* SPEAKERS */
 /*--------------------*/
 
@@ -956,6 +981,21 @@ button:focus {
 	transform: rotate(-45deg);
 	text-align: center;
 }
+
+
+
+/*--------------------*/
+/* Rules */
+/*--------------------*/
+
+
+#mu-rules {
+        background-color: #fff;
+        display: inline;
+        float: left;
+        width: 100%;
+}
+
 
 /*--------------------*/
 /* REGISTER */
