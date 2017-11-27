@@ -17,8 +17,8 @@
     <!-- Theme color -->
     <link id="switcher" href="assets/css/theme-color/green-theme.css" rel="stylesheet">
 
-
-
+<link rel="stylesheet" href="bootstrap.min.css">
+<link rel="stylesheet" href="styple.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -196,43 +196,74 @@
 
 
 							<!-- Start Speakers Content -->
+<div class="container">
+    <div class="row">
 
-									<!-- Start single speaker -->
-									<div class="mu-single-speakers col-md-4">
-<a class="hovertext" href="#" title="Ludhiana has many beautiful places, land marks, historical place. Capture the Ludhiana's history, culture, heritage, beauty and places of interest, in line with themes of the contest with your inner artist. Be the part of interesting event and win the prizes."><img src="images/photo1.png" alt="speaker img"></a>
 
-										<div class="mu-single-speakers-info">
+    <!-- TH1 -->
+        <div class="col-sm-4">
+            <div class="thumbnail">
+              <a href="#" class="">
+                <div class="caption">
+                     <h4 class="">Beauty of Ludhiana</h4>
+
+                    <p class="">There are many beautiful places, land marks, historical place. Capture the Ludhiana's history, culture, heritage, beauty and places of interest, in line with themes of the contest with your inner artist. Be the part of interesting event and win the prizes.
+
+</p>
+                </div>
+                <img src="images/photo1.png" alt="..." class="">
+               </a>
+             
+            </div>
+  <center>
 											<h3>Photography Contest</h3>
-										</div>
-									</div>
-									<!-- End single speaker -->
+										</center>
+        </div>
 
-									<!-- Start single speaker -->
-									<div class="mu-single-speakers col-md-4">
-<a class="hovertext" href="#" title="Are you finding it difficult in deciding what to gift to your friend, business associate which can remind him/her Ludhiana? Though Ludhiana appears on world map due to its Hosiery and Cycle Industry, yet there is not even a single Souvenir available in the market which a visitor can take back home. Though hosiery items of almost all Indian and International brands are manufactured in the city, yet it is hard to find a single article connecting Ludhiana. You can't find T-shirt saying I love Ludhiana in the market. Clock Tower (Ghanta Ghar) is always associated with Ludhiana, yet you can't see a model of Ghanta Ghar being sold in any Souvenir Shop. Let us design souvenir and brand our city at National and International level. Explain your "Souvenir" with text, with sketch, images showing different views. Give detailed description and link it with Ludhiana. Make a pdf file, which you upload."><img src="images/ldh1.png" alt="speaker img"></a>
+        <!-- TH2 -->
+        <div class="col-sm-4">
+            <div class="thumbnail">
+              <a href="#" class="">
+                <div class="caption">
+                     <h4 class="">What could a visitor take back home?</h4>
 
-										<div class="mu-single-speakers-info">
+                    <p class="">You can't find T-shirt saying I love Ludhiana in the market easily, not even any model of Clock Tower (Ghanta Ghar). Let us design souvenir and brand our city at National and International level. Explain your "Souvenir" with text, sketch, images showing different views. Give detailed description and link it with Ludhiana. Make a pdf file, which you upload.
+
+
+</p>
+                </div>
+                <img src="images/ldh1.png" alt="..." class="">
+                </a>
+            </div>
+  <center>
 											<h3>Souvenir Contest</h3>
-										</div>
-									</div>
-									<!-- End single speaker -->
+										</center>
+        </div>
+
+									
+
+    <!-- TH1 -->
+        <div class="col-sm-4">
+            <div class="thumbnail">
+              <a href="#" class="">
+                <div class="caption">
+                     <h4 class="">How much do you know about Ludhiana?</h4>
+
+                    <p class="">Write about Ludhiana so that visitors / businessman loves to come here. Show your creative content writing skill by writing some thing interesting about Ludhiana. The content may also include images / illustrations. Make a pdf file, which you upload.
+
+</p>
+                </div>
+                <img src="images/content1.png" alt="..." class="">
+               </a>
+            </div>
+  <center>
+											<h3>Content-Writing Contest</h3>
+										</center>
+        </div>
+										
 
 
-									<!-- Start single speaker -->
-									<div class="mu-single-speakers col-md-4">
-<a class="hovertext" href="#" title="How much you know about Ludhiana, about its history, culture, heritage, beauty and places of interest. Do you know about the martyrs, business tycoon of Ludhiana, artists of Ludhiana. How you can promote Ludhinana? Write about Ludhiana so that visitors / businessman loves to come here. Show your creative content writing skill by writing some thing interesting about Ludhiana. The content may also include images / illustrations. Make a pdf file, which you upload."><img src="images/content1.png" alt="speaker img"></a>
-
-										<div class="mu-single-speakers-info">
-											<h3>Content Writing Contest</h3>
-									</div>
-									<!-- End single speaker -->
-
-
-							</div>
-							<!-- End Speakers Content -->
-
-						</div>
-					</div>
+									
 				</div>
 
 </div>
@@ -553,7 +584,18 @@ to make education for kids more meaningful and enjoyable.
 	<script type="text/javascript" src="assets/js/custom.js"></script>
 
 
-
+<script> $(document).ready(function() {
+    $("[rel='tooltip']").tooltip();    
+ 
+    $('.thumbnail').hover(
+        function(){
+            $(this).find('.caption').slideDown(250); //.fadeIn(250)
+        },
+        function(){
+            $(this).find('.caption').slideUp(250); //.fadeOut(205)
+        }
+    ); 
+ });</script>
 
   </body>
 </html>
